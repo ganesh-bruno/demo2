@@ -1,0 +1,30 @@
+auth {
+  mode: none
+}
+
+docs {
+  # API Collection Documentation
+  Welcome to the **API Collection** documentation. Below you'll find detailed instructions, examples, and general information to help you get started.
+  
+  ```js 
+   baseURL : https://reqres.in/api/users
+  ```
+  ## API Endpoints
+  
+  Below are the available endpoints in this collection, along with descriptions and usage examples.
+  
+  | **Method** | **Endpoint**        | **Description**                      | **Example Request**   |
+  |------------|---------------------|--------------------------------------|-----------------------|
+  | `GET`      | `/users`            | Retrieve a list of users             | `GET /users`          |
+  | `POST`     | `/users`            | Create a new user                    | `POST /users`         |
+  | `PUT`      | `/users/{id}`       | Update an existing user              | `PUT /users/123`      |
+  | `DELETE`   | `/users/{id}`       | Delete a user                        | `DELETE /users/123`   |
+  
+  ```js 
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "role": "user"
+  }
+  ```
+}
